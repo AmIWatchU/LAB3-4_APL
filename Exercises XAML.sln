@@ -33,6 +33,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Average difficulty", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. WpfExercise v.1", "03. Brushes\Average difficulty\03. WpfExercise v.1\03. WpfExercise v.1.csproj", "{F7F09726-ABF6-445B-B965-F417D24D9DBA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Drawing and transformations", "04. Drawing and transformations", "{66C79CE6-4F3C-4E41-8DAA-8BDF97A1D2BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Average difficulty", "04. Average difficulty", "{0948E8C3-45F3-4344-A8FA-BB94395FBBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. WpfExercise v.1", "04. Drawing and transformations\Average difficulty\04. WpfExercise v.1\04. WpfExercise v.1.csproj", "{9F747D50-2C07-4B4E-B959-ECB0C1363E16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +69,10 @@ Global
 		{F7F09726-ABF6-445B-B965-F417D24D9DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F09726-ABF6-445B-B965-F417D24D9DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F09726-ABF6-445B-B965-F417D24D9DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F747D50-2C07-4B4E-B959-ECB0C1363E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F747D50-2C07-4B4E-B959-ECB0C1363E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F747D50-2C07-4B4E-B959-ECB0C1363E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F747D50-2C07-4B4E-B959-ECB0C1363E16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +90,8 @@ Global
 		{D39D1396-A273-4162-9DF8-879A5CAE6D25} = {85DA03A1-5079-4118-9AAD-1EA07C74E98E}
 		{FD6AD563-A9AF-42FA-A5CD-66548B8BD537} = {E38F6CAE-4FBB-49B5-B59D-8C070676DE73}
 		{F7F09726-ABF6-445B-B965-F417D24D9DBA} = {FD6AD563-A9AF-42FA-A5CD-66548B8BD537}
+		{0948E8C3-45F3-4344-A8FA-BB94395FBBC7} = {66C79CE6-4F3C-4E41-8DAA-8BDF97A1D2BF}
+		{9F747D50-2C07-4B4E-B959-ECB0C1363E16} = {0948E8C3-45F3-4344-A8FA-BB94395FBBC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1139537E-B938-4493-8198-8861E31FC14A}
