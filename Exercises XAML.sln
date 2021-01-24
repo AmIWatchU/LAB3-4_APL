@@ -21,17 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Harder than average", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Average difficulty", "02. Average difficulty", "{AEEA7D0D-D66D-4FD3-97AC-426577F36E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfExercise v.1", "02. Handling events\Relatively easy\02. WpfExercise v.1\02. WpfExercise v.1.csproj", "{B73615BD-F426-4AD4-8FAA-5B11275F1E74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. WpfExercise v.1", "02. Handling events\Relatively easy\02. WpfExercise v.1\02. WpfExercise v.1.csproj", "{B73615BD-F426-4AD4-8FAA-5B11275F1E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfExercise v.2", "02. Handling events\Average difficulty\02. WpfExercise v.2\02. WpfExercise v.2.csproj", "{BDB59920-1A1D-46EB-AF06-5AD280519B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. WpfExercise v.2", "02. Handling events\Average difficulty\02. WpfExercise v.2\02. WpfExercise v.2.csproj", "{BDB59920-1A1D-46EB-AF06-5AD280519B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfExercise v.3", "02. Handling events\Harder than average\02. WpfExercise v.3\02. WpfExercise v.3.csproj", "{D39D1396-A273-4162-9DF8-879A5CAE6D25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. WpfExercise v.3", "02. Handling events\Harder than average\02. WpfExercise v.3\02. WpfExercise v.3.csproj", "{D39D1396-A273-4162-9DF8-879A5CAE6D25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Brushes", "03. Brushes", "{E38F6CAE-4FBB-49B5-B59D-8C070676DE73}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Average difficulty", "03. Average difficulty", "{FD6AD563-A9AF-42FA-A5CD-66548B8BD537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. WpfExercise v.1", "03. Brushes\03. Average difficulty\03. WpfExercise v.1\03. WpfExercise v.1.csproj", "{90FAEDAA-4E51-4F58-A912-DF52957E3E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. WpfExercise v.1", "03. Brushes\Average difficulty\03. WpfExercise v.1\03. WpfExercise v.1.csproj", "{F7F09726-ABF6-445B-B965-F417D24D9DBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{D39D1396-A273-4162-9DF8-879A5CAE6D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D39D1396-A273-4162-9DF8-879A5CAE6D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D39D1396-A273-4162-9DF8-879A5CAE6D25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90FAEDAA-4E51-4F58-A912-DF52957E3E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90FAEDAA-4E51-4F58-A912-DF52957E3E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90FAEDAA-4E51-4F58-A912-DF52957E3E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90FAEDAA-4E51-4F58-A912-DF52957E3E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F09726-ABF6-445B-B965-F417D24D9DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F09726-ABF6-445B-B965-F417D24D9DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F09726-ABF6-445B-B965-F417D24D9DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F09726-ABF6-445B-B965-F417D24D9DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,7 +79,7 @@ Global
 		{BDB59920-1A1D-46EB-AF06-5AD280519B61} = {AEEA7D0D-D66D-4FD3-97AC-426577F36E17}
 		{D39D1396-A273-4162-9DF8-879A5CAE6D25} = {85DA03A1-5079-4118-9AAD-1EA07C74E98E}
 		{FD6AD563-A9AF-42FA-A5CD-66548B8BD537} = {E38F6CAE-4FBB-49B5-B59D-8C070676DE73}
-		{90FAEDAA-4E51-4F58-A912-DF52957E3E8A} = {FD6AD563-A9AF-42FA-A5CD-66548B8BD537}
+		{F7F09726-ABF6-445B-B965-F417D24D9DBA} = {FD6AD563-A9AF-42FA-A5CD-66548B8BD537}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1139537E-B938-4493-8198-8861E31FC14A}
