@@ -9,9 +9,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Relatively easy", "01. 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Average difficulty", "01. Average difficulty", "{D0237544-ACB2-4F42-A2E2-6B6F10633754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. WpfExercise v.1", "01. Basic windows\Relatively easy\01. WpfExercise v.1\01. WpfExercise v.1.csproj", "{F16C5664-C597-4B9B-89E8-C79B8CF48008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. WpfExercise v.1", "01. Basic windows\Relatively easy\01. WpfExercise v.1\01. WpfExercise v.1.csproj", "{F16C5664-C597-4B9B-89E8-C79B8CF48008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. WpfExercise v.2", "01. Basic windows\Average difficulty\01. WpfExercise v.2\01. WpfExercise v.2.csproj", "{AE9BAA42-A079-4072-A79E-049238A623E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. WpfExercise v.2", "01. Basic windows\Average difficulty\01. WpfExercise v.2\01. WpfExercise v.2.csproj", "{AE9BAA42-A079-4072-A79E-049238A623E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Handling events", "02. Handling events", "{18C8923B-98DE-41A2-86E8-30B0376EB1C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Relatively easy", "02. Relatively easy", "{FEB727F5-7124-4833-99C4-920509189FE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Harder than average", "02. Harder than average", "{85DA03A1-5079-4118-9AAD-1EA07C74E98E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Average difficulty", "02. Average difficulty", "{AEEA7D0D-D66D-4FD3-97AC-426577F36E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfExercise v.1", "02. Handling events\Relatively easy\02. WpfExercise v.1\02. WpfExercise v.1.csproj", "{B73615BD-F426-4AD4-8FAA-5B11275F1E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfExercise v.2", "02. Handling events\Average difficulty\02. WpfExercise v.2\02. WpfExercise v.2.csproj", "{BDB59920-1A1D-46EB-AF06-5AD280519B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfExercise v.3", "02. Handling events\Harder than average\02. WpfExercise v.3\02. WpfExercise v.3.csproj", "{D39D1396-A273-4162-9DF8-879A5CAE6D25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +41,18 @@ Global
 		{AE9BAA42-A079-4072-A79E-049238A623E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9BAA42-A079-4072-A79E-049238A623E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9BAA42-A079-4072-A79E-049238A623E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73615BD-F426-4AD4-8FAA-5B11275F1E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73615BD-F426-4AD4-8FAA-5B11275F1E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73615BD-F426-4AD4-8FAA-5B11275F1E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73615BD-F426-4AD4-8FAA-5B11275F1E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB59920-1A1D-46EB-AF06-5AD280519B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB59920-1A1D-46EB-AF06-5AD280519B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB59920-1A1D-46EB-AF06-5AD280519B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB59920-1A1D-46EB-AF06-5AD280519B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39D1396-A273-4162-9DF8-879A5CAE6D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39D1396-A273-4162-9DF8-879A5CAE6D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39D1396-A273-4162-9DF8-879A5CAE6D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39D1396-A273-4162-9DF8-879A5CAE6D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +62,12 @@ Global
 		{D0237544-ACB2-4F42-A2E2-6B6F10633754} = {4801368F-8306-4631-8AE9-CD83CBC5C480}
 		{F16C5664-C597-4B9B-89E8-C79B8CF48008} = {B2E24A56-DC2C-4BAC-A34B-75DE879E0062}
 		{AE9BAA42-A079-4072-A79E-049238A623E1} = {D0237544-ACB2-4F42-A2E2-6B6F10633754}
+		{FEB727F5-7124-4833-99C4-920509189FE2} = {18C8923B-98DE-41A2-86E8-30B0376EB1C8}
+		{85DA03A1-5079-4118-9AAD-1EA07C74E98E} = {18C8923B-98DE-41A2-86E8-30B0376EB1C8}
+		{AEEA7D0D-D66D-4FD3-97AC-426577F36E17} = {18C8923B-98DE-41A2-86E8-30B0376EB1C8}
+		{B73615BD-F426-4AD4-8FAA-5B11275F1E74} = {FEB727F5-7124-4833-99C4-920509189FE2}
+		{BDB59920-1A1D-46EB-AF06-5AD280519B61} = {AEEA7D0D-D66D-4FD3-97AC-426577F36E17}
+		{D39D1396-A273-4162-9DF8-879A5CAE6D25} = {85DA03A1-5079-4118-9AAD-1EA07C74E98E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1139537E-B938-4493-8198-8861E31FC14A}
