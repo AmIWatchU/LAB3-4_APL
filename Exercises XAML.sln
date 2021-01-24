@@ -63,6 +63,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. WpfExercise v.2", "06. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. WpfExercise v.3", "06. Resources\Harder than average\06. WpfExercise v.3\06. WpfExercise v.3.csproj", "{4361837B-7F44-4BA0-A010-2B1623507321}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Menus and toolbars", "07. Menus and toolbars", "{5FBD09C5-56B6-4C50-B193-EDA7ADF125C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Average difficulty", "07. Average difficulty", "{772D5A0C-633D-456B-9705-4634A25EF34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. WpfExercise v.1", "07. Menus and toolbars\Average difficulty\07. WpfExercise v.1\07. WpfExercise v.1.csproj", "{54F7BA68-A93C-4563-8A82-359BE40A4270}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +123,10 @@ Global
 		{4361837B-7F44-4BA0-A010-2B1623507321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4361837B-7F44-4BA0-A010-2B1623507321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4361837B-7F44-4BA0-A010-2B1623507321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F7BA68-A93C-4563-8A82-359BE40A4270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F7BA68-A93C-4563-8A82-359BE40A4270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F7BA68-A93C-4563-8A82-359BE40A4270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F7BA68-A93C-4563-8A82-359BE40A4270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +156,8 @@ Global
 		{80FCA3A2-A7E8-4D3C-A455-D0522B181F22} = {267BF13D-7847-42CC-8506-4893D62337B3}
 		{D3785FB4-D9EF-403E-BBAE-68DD154234C9} = {AEF00C12-309E-4430-B6BD-8E0DEAFCF677}
 		{4361837B-7F44-4BA0-A010-2B1623507321} = {C30ED07C-C949-4EE1-B1D6-20814C3F18EB}
+		{772D5A0C-633D-456B-9705-4634A25EF34C} = {5FBD09C5-56B6-4C50-B193-EDA7ADF125C8}
+		{54F7BA68-A93C-4563-8A82-359BE40A4270} = {772D5A0C-633D-456B-9705-4634A25EF34C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1139537E-B938-4493-8198-8861E31FC14A}
