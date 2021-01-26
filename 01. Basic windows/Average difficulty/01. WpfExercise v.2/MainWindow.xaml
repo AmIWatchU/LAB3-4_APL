@@ -10,7 +10,7 @@
     <StackPanel Margin="20">
 
         <!-- start with title for Top Trumps card-->
-        <Label HorizontalAlignment="Stretch" Content="Top Trumps Authors ==> GEORGE ORWELL" BorderBrush="Black" 
+        <Label HorizontalAlignment="Stretch" Content="Top 100 Authors ==> GEORGE ORWELL" BorderBrush="Black" 
                BorderThickness="1" Background="Bisque" HorizontalContentAlignment="Center" FontWeight="Bold" />
 
         <!-- now have image on left, scores on right -->
