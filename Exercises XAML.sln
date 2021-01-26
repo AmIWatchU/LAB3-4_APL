@@ -79,9 +79,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. WpfExercise v.1", "08. 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Average difficulty 2", "08. Average difficulty 2", "{03D09D18-94CE-45B3-ACB0-29B51FF207DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. WpfExercise v.2", "08. Basic binding\Average difficulty 01\08. WpfExercise v.2\08. WpfExercise v.2.csproj", "{82956A33-6E40-4E9B-AF4E-1FB0D2A7AB49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. WpfExercise v.2", "08. Basic binding\Average difficulty 01\08. WpfExercise v.2\08. WpfExercise v.2.csproj", "{82956A33-6E40-4E9B-AF4E-1FB0D2A7AB49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. WpfExercise v.3", "08. Basic binding\Average difficulty 02\08. WpfExercise v.3\08. WpfExercise v.3.csproj", "{10BA082D-38EE-40DB-BD58-233E15A97DC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. WpfExercise v.3", "08. Basic binding\Average difficulty 02\08. WpfExercise v.3\08. WpfExercise v.3.csproj", "{10BA082D-38EE-40DB-BD58-233E15A97DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Datagrids", "09. Datagrids", "{319B935C-49EF-46A7-9CB3-313CE7A85EE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Harder than average", "09. Harder than average", "{83EAD5E8-4133-462E-A42B-278495ECB60F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Relatively easy", "09. Relatively easy", "{1A35ED99-9252-44BC-A18C-742C94ED5C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. WpfExercise v.1", "09. Datagrids\Relatively easy\09. WpfExercise v.1\09. WpfExercise v.1.csproj", "{AC5D2D72-9DB0-40EC-BC28-7344FA04F4CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. WpfExercise v.2", "09. Datagrids\Harder than average\09. WpfExercise v.2\09. WpfExercise v.2.csproj", "{C6215072-8F0D-439A-A630-50202112F744}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +163,14 @@ Global
 		{10BA082D-38EE-40DB-BD58-233E15A97DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10BA082D-38EE-40DB-BD58-233E15A97DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10BA082D-38EE-40DB-BD58-233E15A97DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5D2D72-9DB0-40EC-BC28-7344FA04F4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5D2D72-9DB0-40EC-BC28-7344FA04F4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5D2D72-9DB0-40EC-BC28-7344FA04F4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5D2D72-9DB0-40EC-BC28-7344FA04F4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6215072-8F0D-439A-A630-50202112F744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6215072-8F0D-439A-A630-50202112F744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6215072-8F0D-439A-A630-50202112F744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6215072-8F0D-439A-A630-50202112F744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +208,10 @@ Global
 		{03D09D18-94CE-45B3-ACB0-29B51FF207DC} = {C9F5DD1D-D9A9-44A3-A4A7-A730270FC6FB}
 		{82956A33-6E40-4E9B-AF4E-1FB0D2A7AB49} = {724F21D3-188B-4BE7-B66C-901B9BACB7BC}
 		{10BA082D-38EE-40DB-BD58-233E15A97DC0} = {03D09D18-94CE-45B3-ACB0-29B51FF207DC}
+		{83EAD5E8-4133-462E-A42B-278495ECB60F} = {319B935C-49EF-46A7-9CB3-313CE7A85EE5}
+		{1A35ED99-9252-44BC-A18C-742C94ED5C8C} = {319B935C-49EF-46A7-9CB3-313CE7A85EE5}
+		{AC5D2D72-9DB0-40EC-BC28-7344FA04F4CF} = {1A35ED99-9252-44BC-A18C-742C94ED5C8C}
+		{C6215072-8F0D-439A-A630-50202112F744} = {83EAD5E8-4133-462E-A42B-278495ECB60F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1139537E-B938-4493-8198-8861E31FC14A}
