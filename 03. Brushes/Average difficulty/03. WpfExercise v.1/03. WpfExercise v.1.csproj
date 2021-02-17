@@ -7,14 +7,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Res\owl.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Res\owl.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-
 </Project>

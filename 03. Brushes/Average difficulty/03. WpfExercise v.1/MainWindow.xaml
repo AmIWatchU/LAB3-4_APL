@@ -12,96 +12,220 @@
 
         <WrapPanel.Background>
 
-            <LinearGradientBrush StartPoint="0,0.5" EndPoint="0.2,0.5" SpreadMethod="Repeat">
-                <GradientStop Offset="0" Color="MistyRose" />
-                <GradientStop Offset="0.5" Color="White" />
-                <GradientStop Offset="1" Color="LightCyan" />
+            <LinearGradientBrush StartPoint="0,0.5" EndPoint="0.2,0.5" SpreadMethod="Pad">
+                <GradientStop Offset="0" Color="#FFA1A2A3" />
+                <GradientStop Offset="0.5" Color="#FF4C8FCE" />
+
             </LinearGradientBrush>
         </WrapPanel.Background>
 
-        <!-- a rectangle with a dashed line -->
-        <StackPanel Orientation="Vertical">
-            <Rectangle Width="150" Height="100" Stroke="Maroon" StrokeDashCap="Triangle"
-                       StrokeThickness="3" Margin="10" StrokeDashArray="5,2" />
-            <Label HorizontalContentAlignment="Center" HorizontalAlignment="Center"  FontStyle="Italic"
-                   Content="1) StrokeDashArray" />
-        </StackPanel>
+
 
         <!-- a rectangle with simple linear gradient -->
-        <StackPanel Orientation="Vertical">
-            <Rectangle Width="150" Height="100" StrokeThickness="1"
-                Stroke="Black" Margin="10">
-                <Rectangle.Fill>
-                    <LinearGradientBrush>
-                        <GradientStop Offset="0" Color="LemonChiffon" />
-                        <GradientStop Offset="1" Color="LightCyan" />
-                    </LinearGradientBrush>
-                </Rectangle.Fill>
-
-            </Rectangle>
-            <Label HorizontalContentAlignment="Center" HorizontalAlignment="Center"  FontStyle="Italic"
-                   Content="2) Linear gradient" />
-        </StackPanel>
-
-        <!-- a rectangle with linear gradient -->
-        <StackPanel Orientation="Vertical">
-            <Rectangle Width="150" Height="100" StrokeThickness="1"
-                Stroke="Black" Margin="10">
-                <Rectangle.Fill>
-                    <LinearGradientBrush StartPoint="0.2,0" EndPoint="0.4,0" SpreadMethod="Reflect">
-                        <GradientStop Offset="0" Color="Lavender" />
-                        <GradientStop Offset="1" Color="Pink" />
-                    </LinearGradientBrush>
-                </Rectangle.Fill>
-
-            </Rectangle>
-            <Label HorizontalContentAlignment="Center" HorizontalAlignment="Center"  FontStyle="Italic"
-                   Content="3) Spreadmethod Reflect" />
-        </StackPanel>
-
-        <!-- ellipse with simple radial gradient -->
-        <StackPanel Orientation="Vertical">
-            <Rectangle Width="150" Height="100" StrokeThickness="1"
-                Stroke="Black" Margin="10">
-                <Rectangle.Fill>
-                    <RadialGradientBrush>
-                        <GradientStop Offset="0" Color="LightGreen" />
-                        <GradientStop Offset="1" Color="LightGoldenrodYellow" />
-                    </RadialGradientBrush>
-                </Rectangle.Fill>
-
-            </Rectangle>
-            <Label HorizontalContentAlignment="Center" HorizontalAlignment="Center"  FontStyle="Italic"
-                   Content="4) Linear gradient" />
-        </StackPanel>
-
-        <!-- ellipse with radial gradient, repeating -->
-        <StackPanel Orientation="Vertical">
-            <Ellipse Width="150" Height="100" Stroke="Black" StrokeThickness="1" Margin="10">
+        <Grid Height="53" Width="56">
+            <Ellipse Stroke="Black" StrokeThickness="1" Margin="251,5,9,17">
                 <Ellipse.Fill>
                     <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
-                        <GradientStop Offset="0" Color="Blue" />
-                        <GradientStop Offset="1" Color="AntiqueWhite" />
+                        <GradientStop Offset="0" Color="LightGreen" />
+                        <GradientStop Offset="1" Color="DarkGreen" />
                     </RadialGradientBrush>
                 </Ellipse.Fill>
             </Ellipse>
-            <Label HorizontalContentAlignment="Center" HorizontalAlignment="Center"  FontStyle="Italic"
-                   Content="5) Repeating radial" />
-        </StackPanel>
 
+        </Grid>
 
-        <!-- image brush -->
+        <!-- a rectangle with linear gradient -->
+
+        <!-- ellipse with simple radial gradient -->
         <StackPanel Orientation="Vertical">
-            <Rectangle Width="150" Height="100" StrokeThickness="1"
-                Stroke="Black" Margin="10">
+            <Grid Height="56">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="293*"/>
+                    <ColumnDefinition Width="307*"/>
+                </Grid.ColumnDefinitions>
+
+                <Rectangle StrokeThickness="1"
+                Stroke="Black" Margin="270,38,11,-7">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush>
+                            <GradientStop Offset="0" Color="#FF683604" />
+
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+
+                </Rectangle>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="277,12,290,10" Grid.ColumnSpan="2">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="261,10,0,12">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="243,12,17,10">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="243,12,17,10">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="243,12,17,10">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="243,12,17,10">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="267,-1,300,23" Grid.ColumnSpan="2">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="255,0,5,22">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="243,-7,17,29">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="260,-17,1,39">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="276,-7,291,29" Grid.ColumnSpan="2">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="276,-24,291,46" Grid.ColumnSpan="2">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="249,-29,11,51">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="261,-41,306,63" Grid.ColumnSpan="2">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="267,-22,300,44" Grid.ColumnSpan="2">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="272,-39,296,61" Grid.ColumnSpan="2">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="250,-35,9,57">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="239,-17,21,39">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Stroke="Black" StrokeThickness="1" Margin="251,5,9,17">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush RadiusX="0.1" RadiusY="0.1" SpreadMethod="Repeat">
+                            <GradientStop Offset="0" Color="LightGreen" />
+                            <GradientStop Offset="1" Color="DarkGreen" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Grid>
+            <Rectangle Width="608" Height="72" StrokeThickness="0"
+                Stroke="Black" HorizontalAlignment="Center">
                 <Rectangle.Fill>
-                    <ImageBrush ImageSource="/Res/owl.png" Stretch="Fill" Viewport="0,0,0.2,0.2" TileMode="Tile" />
+                    <RadialGradientBrush>
+                        <GradientStop Offset="0" Color="Green" />
+                        <GradientStop Offset="1" Color="LightGreen" />
+                    </RadialGradientBrush>
                 </Rectangle.Fill>
 
             </Rectangle>
-            <Label HorizontalContentAlignment="Center" HorizontalAlignment="Center"  FontStyle="Italic"
-                   Content="6) Repeating image" />
+
         </StackPanel>
+
+        <!-- ellipse with radial gradient, repeating -->
+        <StackPanel Orientation="Vertical"/>
+
+
+
 
 
     </WrapPanel>
